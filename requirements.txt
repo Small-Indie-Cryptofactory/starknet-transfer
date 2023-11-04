@@ -1,0 +1,7 @@
+loguru
+asyncio
+aiohttp
+aiohttp-proxy
+fake_useragent
+tqdm
+starknet-py==0.18.2

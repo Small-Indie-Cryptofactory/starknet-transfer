@@ -1,0 +1,3 @@
+my_starknet_wallet, my_starknet_private_key, okx_deposit_wallet, proxy (not necessary) # Don`t delete
+0x..., 0x..., 0x...,                                              # <---- without proxy
+0x..., 0x..., 0x..., http://login:password@ip:port                # <---- with proxy (you can mix)
