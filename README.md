@@ -5,7 +5,7 @@ sudo apt install python3 wget git -y
 ```
 #### Clone the repo
 ```
-git clone https://github.com/saniksin/starknet-transfer
+git clone https://github.com/Small-Indie-Cryptofactory/starknet-transfer
 ```
 #### Install python packages with pip
 ```bash
