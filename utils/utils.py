@@ -32,7 +32,9 @@ async def get_starknet_actual_gas_price(starknet_client, max_retries=10):
                         allow_redirects=True
                 ) as r:
                     result = (await r.json())
-                    gas_price = float(int(result['gas_price'], 16) / 1e9)
+                    # print(result)
+                    # gas_price = float(int(result['strk_l1_gas_price'], 16) / 1e9)
+                    gas_price = float(int(result['strk_l1_gas_price'], 16) / 1e9)
                     return gas_price
         except asyncio.exceptions.TimeoutError:
             logger.debug(f"Retry {_ + 1}/{max_retries} due to TimeoutError Starknet gas price")
